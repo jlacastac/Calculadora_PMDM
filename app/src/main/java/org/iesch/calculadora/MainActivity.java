@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
 
@@ -41,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
                     result.setText(Double.toString(resultado));
                 } else {
-                    Toast.makeText(getApplicationContext(), "Has dejado un campo en blanco", Toast.LENGTH_SHORT);
+                    Toast.makeText(getApplicationContext(), "Has dejado un campo en blanco", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -58,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
                     result.setText(Double.toString(resultado));
                 } else {
-                    Toast.makeText(getApplicationContext(), "Has dejado un campo en blanco", Toast.LENGTH_SHORT);
+                    Toast.makeText(getApplicationContext(), "Has dejado un campo en blanco", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -75,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
                     result.setText(Double.toString(resultado));
                 } else {
-                    Toast.makeText(getApplicationContext(), "Has dejado un campo en blanco", Toast.LENGTH_SHORT);
+                    Toast.makeText(getApplicationContext(), "Has dejado un campo en blanco", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -92,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
 
                     result.setText(Double.toString(resultado));
                 } else {
-                    Toast.makeText(getApplicationContext(), "Has dejado un campo en blanco", Toast.LENGTH_SHORT);
+                    Toast.makeText(getApplicationContext(), "Has dejado un campo en blanco", Toast.LENGTH_SHORT).show();
                 }
             }
         });
